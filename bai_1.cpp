@@ -28,7 +28,7 @@ int main()
         {
             j++;
         }
-        cout << "[" << arr[i].first << ", " << arr[j].last <<"],";
+        cout << "[" << arr[i].first << ", " << arr[j].last <<"] ";
         i = j + 1;
     }
     return 0;
